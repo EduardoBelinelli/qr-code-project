@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: hsla(222, 95%, 92%, 0.852)
+}
+
+.conteiner {
+    width: 340px;
+    height: 540px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.509);
+    border-radius: 15px;
+}
+
+
+
+.content{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 35px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700px;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
